@@ -4,8 +4,8 @@ using System.Text;
 
 namespace DiceRoll
 {
-    interface ILogger : ILogable
+    interface IClosedDiceRoller : ILogable
     {
-        void Log(ILogable data);
+        void RollAllDice();
     }
 }

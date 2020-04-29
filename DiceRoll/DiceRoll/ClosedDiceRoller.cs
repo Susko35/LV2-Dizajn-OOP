@@ -4,49 +4,38 @@ using System.Text;
 
 namespace DiceRoll
 {
-    class DiceRoller : ILogable
+    class ClosedDiceRoller : IClosedDiceRoller
     {
         private List<Die> dice;
         private List<int> resultForEachRoll;
-
-        public DiceRoller()
+        public ClosedDiceRoller(int diceCount, int numberOfSides)
         {
             this.dice = new List<Die>();
+            for (int i = 0; i < diceCount; i++)
+            {
+                this.dice.Add(new Die(numberOfSides));
+            }
             this.resultForEachRoll = new List<int>();
         }
-
-        public void InsertDie(Die die)
-        {
-            dice.Add(die);
-        }
-
         public void RollAllDice()
         {
             RandomGenerator randomGen = RandomGenerator.GetInstance();
-            this.resultForEachRoll.Clear(); //clear of last roll
-            foreach(Die die in dice)
+            this.resultForEachRoll.Clear();
+            foreach (Die die in dice)
             {
                 this.resultForEachRoll.Add(die.Roll(randomGen));
             }
         }
-
-        public IList<int> GetRollingResults()
-        {
-            return new System.Collections.ObjectModel.ReadOnlyCollection<int>(this.resultForEachRoll);
-        }
-
         public string GetStringRepresentation()
         {
-            StringBuilder sb = new StringBuilder("Dice rolls ",32);
+            StringBuilder sb = new StringBuilder("Dice rolls ", 32);
 
-            foreach(int result in this.resultForEachRoll)
+            foreach (int result in this.resultForEachRoll)
             {
                 sb.Append(result);
                 sb.Append("   ");
             }
             return sb.ToString();
         }
-
-        public int DiceCount { get { return dice.Count; } }
     }
 }

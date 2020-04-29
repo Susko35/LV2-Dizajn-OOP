@@ -1,0 +1,13 @@
+D:\Doop\Lv2\LV2-Dizajn-OOP\DiceRoll\DiceRoll\bin\Release\netcoreapp3.1\DiceRoll.exe
+D:\Doop\Lv2\LV2-Dizajn-OOP\DiceRoll\DiceRoll\bin\Release\netcoreapp3.1\DiceRoll.deps.json
+D:\Doop\Lv2\LV2-Dizajn-OOP\DiceRoll\DiceRoll\bin\Release\netcoreapp3.1\DiceRoll.runtimeconfig.json
+D:\Doop\Lv2\LV2-Dizajn-OOP\DiceRoll\DiceRoll\bin\Release\netcoreapp3.1\DiceRoll.runtimeconfig.dev.json
+D:\Doop\Lv2\LV2-Dizajn-OOP\DiceRoll\DiceRoll\bin\Release\netcoreapp3.1\DiceRoll.dll
+D:\Doop\Lv2\LV2-Dizajn-OOP\DiceRoll\DiceRoll\bin\Release\netcoreapp3.1\DiceRoll.pdb
+D:\Doop\Lv2\LV2-Dizajn-OOP\DiceRoll\DiceRoll\obj\Release\netcoreapp3.1\DiceRoll.csprojAssemblyReference.cache
+D:\Doop\Lv2\LV2-Dizajn-OOP\DiceRoll\DiceRoll\obj\Release\netcoreapp3.1\DiceRoll.csproj.CoreCompileInputs.cache
+D:\Doop\Lv2\LV2-Dizajn-OOP\DiceRoll\DiceRoll\obj\Release\netcoreapp3.1\DiceRoll.AssemblyInfoInputs.cache
+D:\Doop\Lv2\LV2-Dizajn-OOP\DiceRoll\DiceRoll\obj\Release\netcoreapp3.1\DiceRoll.AssemblyInfo.cs
+D:\Doop\Lv2\LV2-Dizajn-OOP\DiceRoll\DiceRoll\obj\Release\netcoreapp3.1\DiceRoll.dll
+D:\Doop\Lv2\LV2-Dizajn-OOP\DiceRoll\DiceRoll\obj\Release\netcoreapp3.1\DiceRoll.pdb
+D:\Doop\Lv2\LV2-Dizajn-OOP\DiceRoll\DiceRoll\obj\Release\netcoreapp3.1\DiceRoll.genruntimeconfig.cache

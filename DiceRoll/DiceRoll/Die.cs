@@ -7,16 +7,14 @@ namespace DiceRoll
     class Die
     {
         private int numberOfSides;
-        private RandomGenerator randomGen;
         private int rolledNumber;
 
-        public Die(int numberOfSides, RandomGenerator randomGen)
+        public Die(int numberOfSides)
         {
             this.numberOfSides = numberOfSides;
-            this.randomGen = randomGen;
         }
 
-        public int Roll()
+        public int Roll(RandomGenerator randomGen)
         {
             this.rolledNumber = randomGen.NextInt(1, numberOfSides + 1);
             return this.rolledNumber;

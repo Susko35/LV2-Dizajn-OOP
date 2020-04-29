@@ -6,10 +6,10 @@ namespace DiceRoll
 {
     class RandomGenerator
     {
-        private static RandomGenerator instance;
+        private static RandomGenerator instance = new RandomGenerator();
         private Random random;
 
-        public RandomGenerator()
+        private RandomGenerator()
         {
             this.random = new Random();
         }

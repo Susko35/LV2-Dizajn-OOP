@@ -4,11 +4,16 @@ using System.Text;
 
 namespace DiceRoll
 {
-    class ConsoleLogger : ILogable
+    class ConsoleLogger : ILogger
     {
         public void Log(ILogable data)
         {
-            Console.WriteLine(data);
+            Console.WriteLine(data.GetStringRepresentation());
+        }
+
+        public string GetStringRepresentation()
+        {
+            throw new NotImplementedException();
         }
     }
 }
